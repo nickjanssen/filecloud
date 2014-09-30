@@ -1,0 +1,37 @@
+{
+  "name": "filecloud",
+  "version": "0.1.0",
+  "description": "Upload files via POST and receive a URL in return.",
+  "main": "cloud.js",
+  "dependencies": {
+    "connect": "^2.13.1",
+    "formidable": "^1.0.15",
+    "mkdirp": "^0.5.0",
+    "underscore": "^1.6.0",
+    "s3": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickjanssen/filecloud"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "cloud",
+    "form",
+    "post",
+    "image",
+    "s3",
+    "form"
+  ],
+  "author": "Nick Janssen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickjanssen/filecloud/issues"
+  },
+  "homepage": "https://github.com/nickjanssen/filecloud"
+}
